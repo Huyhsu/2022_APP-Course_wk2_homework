@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, Text, Image, ScrollView } from "react-native";
+import { StyleSheet, View, ScrollView } from "react-native";
 
 import AlbumInfoCard from "./AlbumInfoCard";
 import TrackList from "./TrackList";
@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginLeft: 5,
     marginRight: 5,
-    // backgroundColor: "lightgreen",
   },
 });
 

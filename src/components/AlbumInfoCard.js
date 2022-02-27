@@ -7,7 +7,7 @@ const AlbumInfoCard = () => {
       <Image
         style={styles.albumImageStyle}
         source={{
-          uri: "https://i.scdn.co/image/ab67616d0000b273e00c247a9ad8492ee7b20411",
+          uri: "https://images.squarespace-cdn.com/content/v1/52143a7ae4b0f9bd8308dc73/1572670824513-SXHMRDQY2J5RAM7N4LZC/Mag%2BMell.jpg?format=500w",
         }}
       />
       <View style={styles.infoContainerStyle}>
@@ -34,9 +34,10 @@ const AlbumInfoCard = () => {
 
 const styles = StyleSheet.create({
   cardContainerStyle: {
-    // backgroundColor: "lightblue",
     width: "90%",
     padding: 5,
+    marginTop: 20,
+    marginBottom: 40,
     justifyContent: "center",
     alignItems: "center",
   },
@@ -54,10 +55,9 @@ const styles = StyleSheet.create({
     marginTop: 5,
   },
   typeContainerStyle: {
-    width: "100%",
+    marginTop: 10,
     flexDirection: "row",
     justifyContent: "space-between",
-    marginTop: 10,
   },
   typeTextStyle: {
     color: "#696969",
@@ -69,9 +69,8 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
   },
   artistImageStyle: {
-    height: 24,
+    height: 20,
     width: 24,
-    borderColor: "#111",
     marginRight: 5,
   },
   artistTextStyle: {
@@ -80,10 +79,10 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
   hr: {
-    borderBottomColor: "lightgray",
+    borderBottomColor: "#BBB",
     borderBottomWidth: 1,
-    marginTop: 20,
-    width: "100%",
+    marginTop: 10,
+    width: "90%",
     alignSelf: "center",
   },
 });

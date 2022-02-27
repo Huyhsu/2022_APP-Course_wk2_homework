@@ -1,10 +1,10 @@
 import React from "react";
-import { StyleSheet, View, Text, Image } from "react-native";
+import { StyleSheet, View, Text } from "react-native";
 
 const Header = () => {
   return (
     <View style={styles.headerStyle}>
-      <Text style={styles.textStyle}>Album</Text>
+      <Text style={styles.headerTextStyle}>Album</Text>
     </View>
   );
 };
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     // Android Only
     elevation: 8,
   },
-  textStyle: {
+  headerTextStyle: {
     color: "#DBDBDB",
     fontSize: 24,
     fontWeight: "bold",
